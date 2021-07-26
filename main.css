@@ -1,0 +1,138 @@
+/*personalizacion de index */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2c5364;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 15px #0F2027,
+    -8px 8px 25px #203A43;
+}
+
+.contenedor img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 1px #203A43,
+    0px 0px 0px 5px #2c5364,
+    8px 8px 15px #0F2027,
+    -8px -8px 15px #203a43; 
+    margin-bottom: 20px;
+}
+
+.contenedor p{
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+.contenedor .registro .datos i{
+    color: aliceblue;
+    margin: 20px 5px 20px 20px;
+
+}
+
+.contenedor .registro .datos input{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 15px;
+    padding: 20px 20px 20px 5px;
+    color: aliceblue;
+}
+
+
+/* personalizacion de index 2*/
+.input-custom {
+    border-color: chocolate !important;
+}
+
+.row-custom {
+    top: 10px !important;
+    width: 90%;
+    height: 90% !important;
+    left: 5%;
+}
+
+/* Personalizacion de index 3 */
+.formulario .datos{
+    margin: 10px 0;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.formulario .datos input{
+    width: 48%;
+}
+
+.formulario .boton{
+    width: 30%;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    width: 480px;
+    height: 500px;
+    margin: 10px auto;
+}
+
+.content{
+    margin: 10px 0;
+}
+
+body .contenedor2{
+    position: absolute;
+    width:800px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: cadetblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 15px #0F2027,
+    -8px 8px 25px #203A43;
+}
+
